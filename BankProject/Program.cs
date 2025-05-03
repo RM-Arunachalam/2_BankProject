@@ -114,7 +114,8 @@
                 System.Console.WriteLine("Enter 3 for view customer");
                 System.Console.WriteLine("Enter 0 for exit");
 
-                customerMenuChoice = System.Convert.ToInt32(System.Console.ReadLine());//converting string to int
+                //using Convert class- to convert string to int
+                customerMenuChoice = System.Convert.ToInt32(System.Console.ReadLine());
 
                 switch (customerMenuChoice)
                 {
