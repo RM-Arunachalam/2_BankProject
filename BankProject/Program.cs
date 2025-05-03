@@ -2,7 +2,7 @@
 {
     class Bank
     {
-        public static void Main(String[] args)
+        public static void Main(string[] args)
         {
             string username = null, password = null;
             System.Console.WriteLine("Enter username:");
