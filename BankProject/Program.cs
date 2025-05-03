@@ -98,6 +98,9 @@
                     case 3:
                         System.Console.WriteLine("Account was viewed");
                         break;
+                    default:
+                        Console.WriteLine("Entered wrong account menu choice!!");
+                        break;
                 }
 
             } while (accountsMenuChoice != 0);
@@ -127,6 +130,9 @@
                         break;
                     case 3:
                         System.Console.WriteLine("customer was viewed");
+                        break;
+                    default:
+                        Console.WriteLine("Entered wrong customer menu choice!!");
                         break;
                 }
 
