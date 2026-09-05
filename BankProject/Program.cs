@@ -4,11 +4,11 @@
     {
         public static void Main(string[] args)
         {
-            string username = null, password = null;
+            string username = null, password = null;//assigning both with default value of string i.e null
             System.Console.WriteLine("Enter username:");
             username = System.Console.ReadLine();
 
-            if (username != "")
+            if (username != "")//dont accept pwd if username is empty
             {
                 System.Console.WriteLine("Enter password:");
                 password = System.Console.ReadLine();
@@ -17,7 +17,8 @@
             if (username == "admin" && password == "admin")
             {
                 System.Console.WriteLine("you have successfully logged in ");
-                int mainMenuChoice = -1;
+              
+                int mainMenuChoice = -1;//default value for main menu choice
                 do
                 {
                     System.Console.WriteLine("***MainMenu***");
@@ -85,7 +86,7 @@
                 System.Console.WriteLine("Enter 3 for view account");
                 System.Console.WriteLine("Enter 0 for exit");
 
-                accountsMenuChoice = System.Convert.ToInt32(System.Console.ReadLine());//converting string to int
+                accountsMenuChoice = System.Convert.ToInt32(System.Console.ReadLine());//converting string to int using convert class[Static class]
 
                 switch (accountsMenuChoice)
                 {
